@@ -1,9 +1,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.mapbox_mapas">
+    package="com.andresbadillo.mapbox_mapas">
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
    <application
         android:label="mapbox_mapas"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+        <meta-data android:name="com.mapbox.token" android:value="sk.eyJ1IjoiYW5kcmVzYmFkaWxsbyIsImEiOiJjbDhidXdiYzMwMG1vM3hudGZtcmdvbDltIn0.gd5bJiLmpAxbQSrazzdYLA" />
         <activity
             android:name=".MainActivity"
             android:exported="true"

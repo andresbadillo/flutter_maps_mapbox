@@ -1,4 +1,4 @@
-package com.example.mapbox_mapas
+package com.andresbadillo.mapbox_mapas
 
 import io.flutter.embedding.android.FlutterActivity
 
